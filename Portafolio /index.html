@@ -3,77 +3,82 @@
 <head>
 	<title>Portafolio-Carlos</title>
 	<meta charset = "utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="normalize/normalize.css">
 </head>
 <body>
 
 		<div class="wrapper">
 
-				<header class="header-inicio">
+				<header class="header-main">
 
-						<nav class="nav-principal">
+					<div class="overlay">
 
-								<ul class="cont-li">
-										<li><a href="#">Inicio</a></li>
-										<li><a href="#">Proyectos</a></li>
-										<li><a href="#">Acerca de</a></li>
-										<li><a href="#">Contacto</a></li>
-								</ul><!-- cont-li -->
+						<div class="cont-grid-header">
 
-						</nav><!-- nav-principal -->
+							<nav class="nav-main">
 
-						<h1 class="title-principal">Carlos Ramírez</h1>
-						<h2 class="title-secundario">WEb Developer/Desing</h2>
+									<ul class="cont-li-header">
+											<li class="li-header"><a href="#">Inicio</a></li>
+											<li class="li-header"><a href="#proyect">Proyectos</a></li>
+											<li  class="li-header"><a href="#about-me">Acerca de</a></li class="li-header">
+											<li class="li-header"><a href="#">Contacto</a></li>
+									</ul><!-- cont-li -->
 
-						<div class="redes-sociales">
+							</nav><!-- nav-principal -->
 
-								<ul class="cont-redes">
+							<h1 class="title-main">Carlos Ramírez</h1>
+							<h2 class="title-secundary">Web Developer/Designer</h2>
 
-									<li><img src=""></li>
-									<li><img src=""></li>
-									<li><img src=""></li>
-									<li><img src=""></li>
+							<div class="social-media">
 
-								</ul>
+									<ul class="cont-media">
 
-						</div><!-- redes-sociales -->
+										<li><img src=""></li>
+										<li><img src=""></li>
+										<li><img src=""></li>
+										<li><img src=""></li>
 
-						<aside class="img-principal"></aside><!-- img-principal -->
-					
+									</ul>
+
+							</div><!-- redes-sociales -->
+
+							<aside class="img-main"><img src="img/header/carlos.png" alt=""></aside><!-- img-principal -->
+						</div>
+					</div>
 				</header><!-- header -->
 
 
-				<div class="contenedor-principal">
+				<div class="content-main">
 
-						<section class="acerca-de">
+						<section id="about-me">
 							
-								<h2 class="title-acerca-de title">Acerca de</h2>
+								<h2 class="title-about-me title">Acerca de</h2>
 								<hr/>
 
-								<p class="text-acerca-de"><strong>Acerca de mi </strong>soy una persona que le gusta lo que hace , le gusta desarrollar, diseñar y programar.  Me gusta hacer 
-								las cosas mas faciles para cambiar la forma de ver a las personas el internet y una forma mas divertida.</p>
+								<p class="text-about-me"><strong>Acerca de mi </strong>soy una persona que le gusta lo que hace , le gusta desarrollar, diseñar y programar.  Me gusta hacer 
+								las cosas mas faciles para cambiar la forma de ver a las personas el internet y una forma mas divertida.</p><br/>
 
-								<button class="button-acerca-de">Sigueme</button>
+								<button class="button-about-me">Sigueme</button>
 
 
 						</section><!-- acerca-de -->
 
 						<section class="skills">
+								<div class="cont-grid-skills">
+									<h2 class="title-skills title">Skills</h2>
+									<hr/>
 
-								<h2 class="title-skills title">Skills</h2>
-								<hr/>
+									<ul class="cont-skills">
 
-								<ul class="cont-skills">
+										<li><aside class="cont-skills-circle"><h3>HTML/HTML5</h3></aside></li>
+										<li><aside class="cont-skills-circle"><h3>CSS/CSS3</h3></aside></li>
+										<li><aside class="cont-skills-circle"><h3>JavaScript</h3></aside></li>
+										<li><aside class="cont-skills-circle"><h3>Illustrador/Photoshop</h3></aside></li>
+										<li><aside class="cont-skills-circle"><h3>PHP</h3></aside></li>
 
-									<li><aside class="cont-skills-circle"><h3>HTML/HTML5</h3></aside></li>
-									<li><aside class="cont-skills-circle"><h3>CSS/CSS3</h3></aside></li>
-									<li><aside class="cont-skills-circle"><h3>JavaScript</h3></aside></li>
-									<li><aside class="cont-skills-circle"><h3>Illustrador/Photoshop</h3></aside></li>
-									<li><aside class="cont-skills-circle"><h3>PHP</h3></aside></li>
-
-								</ul>
-							
+									</ul>
+								</div>
 						</section><!-- skills -->
 
 
@@ -88,68 +93,68 @@
 										<li><aside class="cont-proceso-cuadro"><h3>Investigación</h3></aside></li>
 										<li><aside class="cont-proceso-cuadro"><h3>Diseño</h3></aside></li>
 										<li><aside class="cont-proceso-cuadro"><h3>Desarrollar</h3></aside></li>
-										<li><aside class="cont-proceso-cuadro"><h3>Probar</h3></aside></li>
+										<li><aside class="cont-proceso-cuadro"><h3>Definir</h3></aside></li>
 									
 								</ul>
 
 						</section><!-- proceso-trabajo -->
 
 
-						<section class="proyectos">
+						<section id="proyect">
 
-								<h2 class="title-proyectos title">Proyectos</h2>
+								<h2 class="title-proyect title">Proyectos</h2>
 								<hr/>
-								<ul class="cont-proyectos">
+								<ul class="cont-proyect">
 										
 										<li>
-												<div class="img-proyecto">
+												<div id="img-proyect">
 
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 
-												<div class="img-proyecto">
+												<div id="img-proyect">
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 										</li>
 
 										<li>
-												<div class="img-proyecto">
+												<div id="img-proyect">
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 
-												<div class="img-proyecto">
+												<div id="img-proyect">
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 
 										</li>
 
 										<li>
-												<div class="img-proyecto">
+												<div id="img-proyect">
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
 
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 
-												<div class="img-proyecto">
+												<div id="img-proyect">
 														<h3>La iluminada</h3>
 														<hr/>
 														<h4>Proyecto # 4</h4>
 
-														<h4><a href="#">Ir a proyecto > </a></h4>
+														<h5><a href="#">Ir a proyecto > </a></h5>
 												</div>
 
 										</li>
@@ -158,21 +163,21 @@
 
 						</section>
 
-						<footer class="footer-final">
-								<h2 class="title-contacto title">Contacto</h2>
+						<footer class="footer-contact">
+								<h2 class="title-contact title">Contacto</h2>
 								<hr/>
 
-								<div class="cont-izquierda">
+								<div class="cont-left">
 
-										<h3 class="info-contacto"><img src="">ca901993@hotmail.com</h3>
-										<h3 class="info-contacto"><img src="">+506 84018179</h3>
-										<h3 class="info-contacto"><img src="">San José, Barrio Carit</h3>
+										<h3 class="info-contact"><img src="">ca901993@hotmail.com</h3>
+										<h3 class="info-contact"><img src="">+506 84018179</h3>
+										<h3 class="info-contact"><img src="">San José, Barrio Carit</h3>
 
-										<aside class="mapa-contacto"></aside>
+										<aside class="map-contact"></aside>
 
 								</div>
 
-								<div class="cont-derecha">
+								<div class="cont-right">
 										
 										<form action="php" method="post">
 
@@ -180,7 +185,7 @@
 					              <input type="text" id="nombre"  placeholder="Nombre"><br/>
 					              <input type="text" id="e-mail" placeholder="E-mail" /><br/>
 					              <textarea id="mensaje" cols="30" rows="5" placeholder="Mensaje"> </textarea><br/>
-					              <button class="enviar-contacto">Enviar</button>
+					              <button class="enviar-contact">Enviar</button>
 
 				            </form>
 

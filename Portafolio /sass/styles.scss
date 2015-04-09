@@ -1,0 +1,16 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/globals";
+@import "partials/type";
+@import "partials/layout";
+
+
+//modules 
+
+@import "partials/modules/navigation";
+@import "partials/modules/header";
+@import "partials/modules/about-me";
+@import "partials/modules/skills";
+@import "partials/modules/proceso-trabajo";
+@import "partials/modules/proyectos"

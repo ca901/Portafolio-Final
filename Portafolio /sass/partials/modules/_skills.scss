@@ -1,0 +1,42 @@
+.skills {
+	height: 470px;
+	background-size: cover;
+	color: $blanco;
+	background-color: #1565C0;
+}
+.cont-grid-skills {
+	width: $max-width;
+	margin: 0 auto;
+}
+.title-skills {
+	color: $blanco;
+	display: inline-block;
+}
+.cont-skills {
+	list-style: none;
+	padding: 30px;
+}
+.cont-skills-circle {
+	background: $negro;
+	border-radius: 200px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
+.cont-skills-circle h3 {								
+  display: inline-block;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.cont-skills li {
+	display: inline-block;
+	padding: 45px;
+
+}
+.skills hr {
+	margin-top: -39px;
+	border: 2px solid $blanco;
+	width: 78px;
+}

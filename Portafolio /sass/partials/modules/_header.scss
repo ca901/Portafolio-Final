@@ -1,0 +1,23 @@
+.header-main {
+	text-align: center;
+	background: url(../img/header/img-header.jpg)no-repeat center center;
+	color: #fff;
+	background-size: cover;
+	height: $max-height;
+
+}
+.overlay{
+	background-color: rgba(13,80,188,0.7);
+	height: $max-height;
+
+}
+.cont-grid-header { 
+	max-width: $max-width;
+	margin: 0 auto;
+}
+.img-main img {
+	border-radius:$min-height; 
+	width: 300px;
+	height: $min-height;
+	border: 7px solid $azul;
+}

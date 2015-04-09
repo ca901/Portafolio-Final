@@ -1,0 +1,33 @@
+.proceso-trabajo {
+	height: 470px;
+	width: $max-width;
+	margin: 0 auto;
+}
+.cont-proceso-de-trabajo {
+	list-style: none;
+	padding: 30px;
+}
+.cont-proceso-de-trabajo li {
+	display: inline-block;
+	padding: 45px;
+}
+.cont-proceso-cuadro {
+	background: $negro;
+	border: 2px solid $negro;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
+.cont-proceso-cuadro h3 {								
+	display: inline-block;
+	text-align: center;
+	color: $blanco;
+	margin-top: 70px;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+.proceso-trabajo hr {
+	margin-top: -39px;
+	border: 2px solid $negro;
+	width: 168px; 	
+}
