@@ -1,0 +1,74 @@
+#footer-contact {
+	overflow: hidden;
+	height: 600px;
+	background-color:rgba(172,191,204,0.3);
+	width: 100%;
+
+
+	form {
+		float: left;
+	}
+	input,
+	textarea,
+	button {
+		display: inline-block;
+		float: left;
+	
+	}
+	input {
+		width: 354px;
+		height: 40px;
+		margin-top: 10px;
+	}
+	textarea {
+		margin-top: 10px;
+		  width: 354px;
+	}
+	hr {
+	margin-top: -39px;
+	border: 2px solid $negro;
+	width: 98px;
+	}
+
+}
+.overlay-contact {	
+	height: 600px;
+	overflow: hidden;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.cont-left {
+  display: inline-block;
+  width: 43%;
+  float: right;
+  margin-top: 35px;
+}
+.enviar-contact {
+	width: 354px;
+	margin-left: 0;
+
+	&:hover { 
+		-webkit-transition-duration:0.6s;
+	    box-shadow: inset 1px 1px 5px 3px $azul;
+	}
+}
+.cont-right {
+    width: 40%;
+    margin-top: 37px;
+}
+.divisor-line {
+  width: 1px;
+  height: 276px;
+  border: 1px dashed #000;
+  display: inline-block;
+  margin-top: 39px;
+  position: absolute;
+}
+.info-contact {
+	padding: 4px;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+.img-info-contaco {
+	margin-top: -18px;
+}
