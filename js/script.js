@@ -10,17 +10,17 @@ var AppValidando = {};
                  form = [];
 
                     var nombre = /^\+$/;                   
-                    if( n === null || n.length === 0 || nombre.test(n) ) {
+                    if(n.length === 0 || nombre.test(n) ) {
                       alert("Pon bien tu nombre");
                       return false;
                      }
                     var email = /^\+$/;;                   
-                    if( e === null || e.length === 0 || !(/^([a-zA-Z0-9_.-])+@(([a-zA-z0-9-])+.)+([a-zA-Z0-9-]{2,4})+$/.test(e))|| email.test(e) ) {
+                    if(e.length === 0 || !(/^([a-zA-Z0-9_.-])+@(([a-zA-z0-9-])+.)+([a-zA-Z0-9-]{2,4})+$/.test(e))|| email.test(e) ) {
                       alert("Pon bien tu email");
                       return false;
                     }                   
                    var mensaje = /^\+$/;                   
-                    if( m === null || m.length === 0 || mensaje.test(m) ) {
+                    if(m.length === 0 || mensaje.test(m) ) {
                           alert("Tu mensaje esta mal");
                           return false;
                      } else {
@@ -34,7 +34,7 @@ var AppValidando = {};
   }
 
 }();
-function informacion(a,e,m) {
+function Informacion(a,e,m) {
 this.nombre = a;
 this.email = e;
 this.mensaje = m;
