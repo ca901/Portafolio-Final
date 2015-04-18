@@ -1,0 +1,25 @@
+.content-main {
+	margin-top: 160px;
+	text-align: center;
+}
+#about-me {
+	max-width: $max-width;
+	margin: 0 auto;
+	display: inline-block;
+	height: 390px;
+	margin-top: 18px;
+}
+
+#about-me hr {
+	margin-top: -39px;
+	border: 2px solid $negro;
+}
+.text-about-me {
+	margin-top: 56px;
+	text-align: center;
+	font-size: 18px;
+	font-size: 1.8rem;
+	width: 50%;
+	display: inline-block;
+	font-family: 'abeezeeitalic',sans-serif;
+}
