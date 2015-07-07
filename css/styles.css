@@ -583,4 +583,8 @@ hr {
 .img-info-contaco {
   margin-top: -18px; }
 
+#form {
+  padding-right: 170px;
+  border-right: 1px dashed #000; }
+
 /*# sourceMappingURL=styles.css.map */
