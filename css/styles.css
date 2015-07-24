@@ -128,7 +128,7 @@ hr {
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
 .header-main {
   text-align: center;
-  background: url(../img/header/img-header.jpg) no-repeat center center;
+  background: url(../img/header/img-header.jpg) no-repeat center fixed;
   color: #fff;
   background-size: cover;
   height: 632px;
