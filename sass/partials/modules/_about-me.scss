@@ -1,25 +1,117 @@
-.content-main {
-	margin-top: 160px;
-	text-align: center;
+.about-me-main {
+	display: inline-block;
+	height: 765px; 
+	width: $all;
+	background-color: #2D2E31;
 }
-#about-me {
-	max-width: $max-width;
+.grid-about-me {
+	max-width:$max-width;
 	margin: 0 auto;
-	display: inline-block;
-	height: 390px;
-	margin-top: 18px;
 }
-
-#about-me hr {
-	margin-top: -39px;
-	border: 2px solid $negro;
+.text-content-about {
+	width: 100%;
+	margin-bottom: 22px;
 }
-.text-about-me {
-	margin-top: 56px;
+.text-about {
+	font-size: 2rem;
+	color:$blanco;
+}
+.title-about-me {
+	font-size: 5rem;
 	text-align: center;
-	font-size: 18px;
-	font-size: 1.8rem;
-	width: 50%;
-	display: inline-block;
-	font-family: 'abeezeeitalic',sans-serif;
+	color: $blanco;
+	height: 78px;
+  margin-top: 80px;
+  font-family: $title;
+}
+.title-skills {
+	font-size: 4rem;
+	text-align: center;
+	color: $blanco;
+	height: 78px;
+	margin-top: 100px;
+	font-family: $title;
+}
+.skill-item {
+  background-color: #53C184;
+  width: 19%;
+  margin: 0.4% 0.4% 0.4% 0.4%;
+  height: 42px;
+  display: inline-block;
+  box-shadow: 2px 3px 6px 0px $negro;
+}
+.name-item-skill {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow:0px 1px 4px #000;
+}
+/*
+
+//////// medias //////////
+
+*/
+@media(max-width: 1366px) {
+	.grid-about-me {
+		max-width: 1024px;
+	}
+	.skill-item {
+		width: 32%;
+	}
+	.about-me-main {
+		height: 825px;
+	}
+}
+@media(max-width: 1280px) {
+	.grid-about-me {
+		max-width: 980px;
+	}
+	.skill-item {
+		width: 18%;
+	}
+}
+@media (max-width: 1024px) {
+	.grid-about-me {
+		max-width:780px;
+	}
+	.skill-item {
+		width: 23%;
+	}
+}
+@media (max-width: 780px) {
+	.grid-about-me {
+		max-width: 640px;
+	}
+	.skills-main {
+		margin-top: -62px;
+	}
+	.skill-item {
+    width: 31%;
+	}
+	.about-me-main {
+		height: 840px; 
+	}
+}
+@media (max-width: 640px) {
+	.grid-about-me {
+		max-width: 480px;
+	}
+	.skill-item {
+    width: 47%;
+	}
+	.about-me-main {
+		height: 940px; 
+	}
+}
+@media (max-width: 480px) {
+	.grid-about-me {
+		max-width: 400px;
+	}
+	.skill-item {
+    width: 48%;
+	}
+	.about-me-main {
+		height: 965px; 
+	}
 }

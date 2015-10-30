@@ -66,40 +66,6 @@ ajaxRequest();
 
 
 
-/*////////////////////////////////////// Validación /////////////////////////////////////////////////*/
-
-
-
-
-
-
-/*
-function validacion(val){
-      var elemento = document.getElementById(val);
-      if(elemento.checkValidity())
-          elemento.style.borderColor="Aqua";
-      else
-          elemento.style.borderColor = "red";
-    }
-    function buttonAction()
-    {
-      var nombreVal=document.getElementById('nombre').checkValidity();
-      var emailVal=document.getElementById('email').checkValidity();
-
-      if(nombreVal && emailVal){
-        alert("Su informacion fue enviada exitosamente");
-      } else{
-        alert("Por Favor revise sus campos.");
-      }   
-    }
-
-
-*/
-
-
-
-
-
 
 
 

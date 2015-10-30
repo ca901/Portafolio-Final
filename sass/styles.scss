@@ -2,14 +2,21 @@
 @import "partials/globals";
 @import "partials/type";
 @import "partials/layout";
-
-
 //modules 
 
-@import "partials/modules/navigation";
 @import "partials/modules/header";
+@import "partials/modules/navigation";
 @import "partials/modules/about-me";
-@import "partials/modules/skills";
-@import "partials/modules/proceso-trabajo";
 @import "partials/modules/proyectos";
-@import "partials/modules/contact";
+@import "partials/modules/footer";
+/*
+@import "partials/modules/proceso-trabajo";
+
+*/
+/* 
+Tipografias
+* */
+
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Dosis);

@@ -2,23 +2,23 @@
 	"nombre" : "Lista de Proyectos",
 	"Proyectos":[
 						{	
-							"Nombre":"La iluminada",
-							"img":"img/proyectos/pagina-web.jpg",
+							"Nombre":"Landing Drupal",
+							"img":"img/proyectos/badge.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice"
+							"informacion":"Página hecha para promocionar el Drupal Camp"
 						},
 						{
-							"Nombre":"La iluminada",
-							"img":"img/proyectos/pagina-web.jpg",
+							"Nombre":"El caminito",
+							"img":"img/proyectos/logo.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice"
+							"informacion":"Esta es una de las primeras páginas que hice cuando empece a estudiar"
 						},
 						
 						{
-							"Nombre":"La iluminada",
+							"Nombre":"El caminito",
 							"img":"img/proyectos/pagina-web.jpg",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice"
+							"informacion":"Esta Página fue una de las primeras que hice"
 					
 						},
 						{
