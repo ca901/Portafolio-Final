@@ -462,7 +462,13 @@ p {
     margin-left: 6%; }
 
   .mas-descript {
-    margin-left: -154px; } }
+    margin-left: -154px; }
+
+  #proyect {
+    height: 2355px; }
+
+  .grid-proyects {
+    height: 2355px; } }
 @media (max-width: 480px) {
   #proyect {
     height: 2355px; }
