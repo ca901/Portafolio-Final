@@ -1,4 +1,4 @@
-.about-me-main {
+#about-me-main {
 	display: inline-block;
 	height: 765px; 
 	width: $all;
@@ -59,7 +59,7 @@
 	.skill-item {
 		width: 32%;
 	}
-	.about-me-main {
+	#about-me-main {
 		height: 825px;
 	}
 }
@@ -89,7 +89,7 @@
 	.skill-item {
     width: 31%;
 	}
-	.about-me-main {
+	#about-me-main {
 		height: 840px; 
 	}
 }
@@ -100,7 +100,7 @@
 	.skill-item {
     width: 47%;
 	}
-	.about-me-main {
+	#about-me-main {
 		height: 940px; 
 	}
 }
@@ -111,7 +111,7 @@
 	.skill-item {
     width: 48%;
 	}
-	.about-me-main {
+	#about-me-main {
 		height: 965px; 
 	}
 }

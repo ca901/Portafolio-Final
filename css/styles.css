@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -14,7 +16,7 @@ body {
   padding: 0; }
 
 p {
-  font-family: 'Dosis', sans-serif; }
+  font-family: "Bubblegum Sans", cursive; }
 
 .title-main {
   font-size: 72px;
@@ -222,8 +224,9 @@ p {
 .li-item-header a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
-  font-size: 1.8rem; }
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Bubblegum Sans", cursive; }
 
 @media (max-width: 1024px) {
   .cont-li-header {
@@ -245,7 +248,7 @@ p {
 @media (max-width: 640px) {
   .cont-li-header {
     width: 100%; } }
-.about-me-main {
+#about-me-main {
   display: inline-block;
   height: 765px;
   width: 100%;
@@ -269,7 +272,7 @@ p {
   color: #fff;
   height: 78px;
   margin-top: 80px;
-  font-family: "Kaushan Script", cursive; }
+  font-family: "Quicksand", sans-serif; }
 
 .title-skills {
   font-size: 4rem;
@@ -277,7 +280,7 @@ p {
   color: #fff;
   height: 78px;
   margin-top: 100px;
-  font-family: "Kaushan Script", cursive; }
+  font-family: "Quicksand", sans-serif; }
 
 .skill-item {
   background-color: #53C184;
@@ -306,7 +309,7 @@ p {
   .skill-item {
     width: 32%; }
 
-  .about-me-main {
+  #about-me-main {
     height: 825px; } }
 @media (max-width: 1280px) {
   .grid-about-me {
@@ -330,7 +333,7 @@ p {
   .skill-item {
     width: 31%; }
 
-  .about-me-main {
+  #about-me-main {
     height: 840px; } }
 @media (max-width: 640px) {
   .grid-about-me {
@@ -339,7 +342,7 @@ p {
   .skill-item {
     width: 47%; }
 
-  .about-me-main {
+  #about-me-main {
     height: 940px; } }
 @media (max-width: 480px) {
   .grid-about-me {
@@ -348,7 +351,7 @@ p {
   .skill-item {
     width: 48%; }
 
-  .about-me-main {
+  #about-me-main {
     height: 965px; } }
 #proyect {
   background: url(../img/proyects.jpg) no-repeat center fixed;
@@ -374,7 +377,7 @@ p {
 .title-proyect {
   display: inline-block;
   color: #fff;
-  font-family: "Kaushan Script", cursive;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   margin-top: 80px;
   text-shadow: 10px 9px 14px #000; }
@@ -492,7 +495,7 @@ p {
 
 .title-contact {
   color: #fff;
-  font-family: "Kaushan Script", cursive; }
+  font-family: "Quicksand", sans-serif; }
 
 .overlay-contact {
   max-width: 1280px;
@@ -502,6 +505,17 @@ p {
   display: inline-block;
   width: 100%; }
 
+.contact-item-title {
+  border-bottom: 3px solid #fff;
+  height: 46px;
+  font-size: 2.5rem;
+  font-family: "Quicksand", sans-serif; }
+
+.contact-item-numbers,
+.contact-item-my-info {
+  font-size: 1.8rem;
+  font-family: "Bubblegum Sans", cursive; }
+
 .contact-item {
   color: #fff;
   display: inline-block;
@@ -510,12 +524,11 @@ p {
   float: left;
   margin-left: 10%; }
   .contact-item img {
-    width: 28%;
-    height: 56px;
+    width: 21%;
+    height: 49px;
     max-width: 100%;
     display: inline-block;
-    margin-left: 34%;
-    margin-top: 41px; }
+    margin-left: 4%; }
 
 .info-contact {
   text-align: center;
@@ -554,11 +567,10 @@ p {
     width: 39%;
     margin-left: 31%; } }
 /*
-@import "partials/modules/proceso-trabajo";
-
-*/
+ * @import "partials/modules/proceso-trabajo";
+ */
 /* 
-Tipografias
-* */
+ *Tipografias
+ */
 
 /*# sourceMappingURL=styles.css.map */
