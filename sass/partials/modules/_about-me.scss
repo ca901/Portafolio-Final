@@ -39,6 +39,11 @@
   height: 42px;
   display: inline-block;
   box-shadow: 2px 3px 6px 0px $negro;
+  /**
+  Revisar
+   *transform:traslateZ(50px);
+   *transform:rotate(20deg);
+   */
 }
 
 .name-item-skill {
@@ -114,5 +119,18 @@
 	}
 	#about-me-main {
 		height: 965px; 
+	}
+}
+
+@media (max-width: 400px) {
+	.text-content-about {
+		max-width: 330px;
+    margin: 0 auto;
+	}
+
+	.skill-item {
+    width: 48%;
+    margin-top: 9px;
+    margin-left: 3.3px;
 	}
 }

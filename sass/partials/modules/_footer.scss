@@ -28,7 +28,7 @@
 
 .contact-item-numbers, 
 .contact-item-my-info {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: $textFont;
 }
 
@@ -74,20 +74,62 @@
 }
 @media (max-width: 768px) {
   .contact-item img {
-    width: 44%;
-    margin-left: 28%;
-    margin-top: 30px;
+    width: 32%;
+    margin-left: 0;
+  }
+  .contact-item-title {
+    height: 63px;
   }
   .info-contact {
     font-size: 1.5rem;
   }
 }
+
 @media (max-width: 640px) {
   .info-contact {
     font-size: 1.6rem;
   }
+
   .contact-item img {
     width: 39%;
     margin-left: 31%;
+  }
+
+  #footer-contact {
+    height: 677px;
+  }
+
+  .contact-item img {
+    width: 28%;
+    margin-left: 34%;
+    margin-top: 11px;
+  }
+
+  .contact-item {
+    width: 34%;
+  }
+
+}
+
+@media (max-width: 400px) {
+  #footer-contact {
+    height: 910px;
+  }
+
+  .contact-item {
+    width: 51%;
+  }
+
+  .contact-item-title {
+    margin-top: 42px;
+  }
+
+  .contact-item img {
+    width: 28%;
+    margin-left: 4%;
+    margin-top: 13px;
+  }
+  .contact-item-numbers, .contact-item-my-info {
+    font-size: 2.6rem;
   }
 }

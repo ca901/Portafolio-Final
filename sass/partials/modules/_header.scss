@@ -134,3 +134,13 @@
 		font-size: 5.8rem;
 	}
 }
+
+@media (max-height: 400px) {
+	  /* 
+   * Revisar importante Cambiar
+   */
+   .rotative-header-words span {
+    display: none;
+    color: #ff4;
+   }
+}

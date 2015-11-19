@@ -199,6 +199,13 @@ p {
   .title-main-header {
     margin-top: 200px;
     font-size: 5.8rem; } }
+@media (max-height: 400px) {
+  	  /* 
+     * Revisar importante Cambiar
+     */
+  .rotative-header-words span {
+    display: none;
+    color: #ff4; } }
 .nav-main {
   width: 100%;
   text-align: center;
@@ -326,7 +333,12 @@ p {
   margin: 0.4% 0.4% 0.4% 0.4%;
   height: 42px;
   display: inline-block;
-  box-shadow: 2px 3px 6px 0px #000; }
+  box-shadow: 2px 3px 6px 0px #000;
+  /**
+  Revisar
+   *transform:traslateZ(50px);
+   *transform:rotate(20deg);
+   */ }
 
 .name-item-skill {
   font-size: 2rem;
@@ -391,6 +403,15 @@ p {
 
   #about-me-main {
     height: 965px; } }
+@media (max-width: 400px) {
+  .text-content-about {
+    max-width: 330px;
+    margin: 0 auto; }
+
+  .skill-item {
+    width: 48%;
+    margin-top: 9px;
+    margin-left: 3.3px; } }
 #proyect {
   background: url(../img/proyects.jpg) no-repeat center fixed;
   background-size: cover;
@@ -551,7 +572,7 @@ p {
 
 .contact-item-numbers,
 .contact-item-my-info {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "Bubblegum Sans", cursive; }
 
 .contact-item {
@@ -591,9 +612,11 @@ p {
     margin-top: 31px; } }
 @media (max-width: 768px) {
   .contact-item img {
-    width: 44%;
-    margin-left: 28%;
-    margin-top: 30px; }
+    width: 32%;
+    margin-left: 0; }
+
+  .contact-item-title {
+    height: 63px; }
 
   .info-contact {
     font-size: 1.5rem; } }
@@ -603,7 +626,35 @@ p {
 
   .contact-item img {
     width: 39%;
-    margin-left: 31%; } }
+    margin-left: 31%; }
+
+  #footer-contact {
+    height: 677px; }
+
+  .contact-item img {
+    width: 28%;
+    margin-left: 34%;
+    margin-top: 11px; }
+
+  .contact-item {
+    width: 34%; } }
+@media (max-width: 400px) {
+  #footer-contact {
+    height: 910px; }
+
+  .contact-item {
+    width: 51%; }
+
+  .contact-item-title {
+    margin-top: 42px; }
+
+  .contact-item img {
+    width: 28%;
+    margin-left: 4%;
+    margin-top: 13px; }
+
+  .contact-item-numbers, .contact-item-my-info {
+    font-size: 2.6rem; } }
 /*
  * @import "partials/modules/proceso-trabajo";
  */
