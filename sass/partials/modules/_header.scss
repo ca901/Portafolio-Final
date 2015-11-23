@@ -135,12 +135,11 @@
 	}
 }
 
-@media (max-height: 400px) {
+@media (max-width: 400px) {
 	  /* 
    * Revisar importante Cambiar
    */
-   .rotative-header-words span {
-    display: none;
-    color: #ff4;
+   .rotative-header-words {
+     display: none;
    }
 }

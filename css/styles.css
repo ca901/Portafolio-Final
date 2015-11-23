@@ -199,13 +199,12 @@ p {
   .title-main-header {
     margin-top: 200px;
     font-size: 5.8rem; } }
-@media (max-height: 400px) {
+@media (max-width: 400px) {
   	  /* 
      * Revisar importante Cambiar
      */
-  .rotative-header-words span {
-    display: none;
-    color: #ff4; } }
+  .rotative-header-words {
+    display: none; } }
 .nav-main {
   width: 100%;
   text-align: center;
@@ -271,6 +270,7 @@ p {
   .li-item-header {
     margin-top: 1px;
     border-bottom: 1px solid #fff;
+    box-shadow: 1px 1px 1px 1px #CCC;
     display: block; }
     .li-item-header .li-item-header-link {
       font-size: 3rem; }
