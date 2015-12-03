@@ -144,3 +144,9 @@
     height: 720px;
 	 }
 }
+
+@media (max-width: 400px) {
+	.header-main {
+	    height: 600px;
+	}
+}
