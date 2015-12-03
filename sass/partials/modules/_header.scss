@@ -135,11 +135,12 @@
 	}
 }
 
-@media (max-width: 400px) {
-	  /* 
-   * Revisar importante Cambiar
-   */
-   .rotative-header-words {
+@media (max-width: 480px) {
+   .container-words {
      display: none;
    }
+
+   .header-main {
+    height: 720px;
+	 }
 }
