@@ -51,7 +51,7 @@ mygetrequest.onreadystatechange = function(){
 
     var content = "";
     for (var i = 0; i < jsonObj.Proyectos.length; i++) {    
-        content += '<li class="img-proyect"><img class="img-proyect-ajax" src= "'+jsonObj.Proyectos[i].img+'"><span class="descript"><h2 class = text-descript>'+jsonObj.Proyectos[i].Nombre+'</h2></span><img class="mas-descript" src="'+jsonObj.Proyectos[i].imgMas+'"><p class="text-info-descript">'+jsonObj.Proyectos[i].informacion+'</p></li>'
+        content += '<li class="img-proyect"><img class="img-proyect-ajax" src= "'+jsonObj.Proyectos[i].img+'"><span class="descript"><h2 class = text-descript>'+jsonObj.Proyectos[i].Nombre+'</h2><a target="_black" href="'+jsonObj.Proyectos[i].proyecto+'"></span><img class="mas-descript" src="'+jsonObj.Proyectos[i].imgMas+'"><a><p class="text-info-descript">'+jsonObj.Proyectos[i].informacion+'</p></li>'
     };
 
       document.getElementById("cont-proyect").innerHTML = content;

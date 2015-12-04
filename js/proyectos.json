@@ -2,23 +2,26 @@
 	"nombre" : "Lista de Proyectos",
 	"Proyectos":[
 						{	
+							"proyecto":"proyectos/landingDrupalCamp-master/index.html",
 							"Nombre":"Landing Drupal",
 							"img":"img/proyectos/badge.png",
 							"imgMas":"img/proyectos/mas.png",
 							"informacion":"Página hecha para promocionar el Drupal Camp"
 						},
 						{
-							"Nombre":"El caminito",
-							"img":"img/proyectos/logo.png",
+							"proyecto":"http://cetavgamejam.github.io/",
+							"Nombre":"Game Jam 2015",
+							"img":"img/proyectos/gamejam.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice cuando empece a estudiar"
+							"informacion":"Página creada para el Game Jam 2015 en el CETAV"
 						},
 						
 						{
-							"Nombre":"El caminito",
-							"img":"img/proyectos/pagina-web.jpg",
+							"proyecto":"http://our-heritage.github.io/",
+							"Nombre":"Our Heritage",
+							"img":"img/proyectos/main-bg-small.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta Página fue una de las primeras que hice"
+							"informacion":"Promoción del juego, que hicimos en el CETAV"
 					
 						},
 						{
