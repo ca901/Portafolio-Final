@@ -4,18 +4,23 @@
 	width: $all;
 	background-color: #2D2E31;
 }
+
 .grid-about-me {
 	max-width:$max-width;
 	margin: 0 auto;
 }
+
 .text-content-about {
 	width: 100%;
 	margin-bottom: 22px;
 }
+
 .text-about {
 	font-size: 2rem;
 	color:$blanco;
+  letter-spacing: 1px;
 }
+
 .title-about-me {
 	font-size: 5rem;
 	text-align: center;
@@ -24,6 +29,7 @@
   margin-top: 80px;
   font-family: $title;
 }
+
 .title-skills {
 	font-size: 4rem;
 	text-align: center;
@@ -32,6 +38,7 @@
 	margin-top: 100px;
 	font-family: $title;
 }
+
 .skill-item {
   background-color: #53C184;
   width: 19%;
@@ -39,11 +46,6 @@
   height: 42px;
   display: inline-block;
   box-shadow: 2px 3px 6px 0px $negro;
-  /**
-  Revisar
-   *transform:traslateZ(50px);
-   *transform:rotate(20deg);
-   */
 }
 
 .name-item-skill {
@@ -55,16 +57,18 @@
 }
 /*
 
-//////// medias //////////
+//////// M E D I A  Q U E R I E S  //////////
 
 */
 @media(max-width: 1366px) {
 	.grid-about-me {
 		max-width: 1024px;
 	}
+
 	.skill-item {
 		width: 32%;
 	}
+
 	#about-me-main {
 		height: 825px;
 	}
@@ -73,6 +77,7 @@
 	.grid-about-me {
 		max-width: 980px;
 	}
+
 	.skill-item {
 		width: 18%;
 	}
@@ -81,6 +86,7 @@
 	.grid-about-me {
 		max-width:780px;
 	}
+
 	.skill-item {
 		width: 23%;
 	}
@@ -89,12 +95,15 @@
 	.grid-about-me {
 		max-width: 640px;
 	}
+
 	.skills-main {
 		margin-top: -62px;
 	}
+
 	.skill-item {
     width: 31%;
 	}
+
 	#about-me-main {
 		height: 840px; 
 	}
@@ -103,9 +112,11 @@
 	.grid-about-me {
 		max-width: 480px;
 	}
+
 	.skill-item {
     width: 47%;
 	}
+
 	#about-me-main {
 		height: 940px; 
 	}
@@ -114,9 +125,11 @@
 	.grid-about-me {
 		max-width: 400px;
 	}
+
 	.skill-item {
     width: 48%;
 	}
+
 	#about-me-main {
 		height: 965px; 
 	}

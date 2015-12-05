@@ -2,48 +2,20 @@
 	font-size: 72px;
 	font-size: 7.2rem;
 	margin-top: 154px;
-	//text-shadow: 3px 3px $azul;
+}
 
-}
 .title-secundary {
-		font-size: 36px;
-		font-size: 3.6rem;
-		margin-top: -34px;
-		color: #ddd;
-		//text-shadow: 2px 2px $azul;
+	font-size: 36px;
+	font-size: 3.6rem;
+	margin-top: -34px;
+	color: #ddd;
 }
+
 .title {
 	font-size: 50px;
 	font-size: 5rem;
 	text-align: center;
 	font-family: 'amaranthregular',serif;
 }
-//////// font //////////////////////////////////
 
-
-@font-face {
-    font-family: 'amaranthregular';
-    src: url('../fonts/amaranth/amaranth-regular.eot');
-    src: url('../fonts/amaranth/amaranth-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/amaranth/amaranth-regular.woff2') format('woff2'),
-         url('../fonts/amaranth/amaranth-regular.woff') format('woff'),
-         url('../fonts/amaranth/amaranth-regular.ttf') format('truetype'),
-         url('../fonts/amaranth/amaranth-regular.svg#amaranthregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'abeezeeitalic';
-    src: url('../fonts/abeezee/abeezee-italic.eot');
-    src: url('../fonts/abeezee/abeezee-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/abeezee/abeezee-italic.woff2') format('woff2'),
-         url('../fonts/abeezee/abeezee-italic.woff') format('woff'),
-         url('../fonts/abeezee/abeezee-italic.ttf') format('truetype'),
-         url('../fonts/abeezee/abeezee-italic.svg#abeezeeitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 

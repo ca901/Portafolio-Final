@@ -1,12 +1,14 @@
 .nav-main{
-  width:$all;
-  text-align: center;
-  overflow: hidden;
-  height: 79px;
-  display: inline-block;
-  margin-top: -16px;
   background-color: rgba(52,52,52,0.9);
+  display: inline-block;  
+  height: 79px;  
+  margin-top: -16px;
+  overflow: hidden;
+  text-align: center;
+  width:$all;
+
 }
+
 .cont-li-header {
 	list-style: none;
   width: 43%;
@@ -16,6 +18,7 @@
   margin-top: 11px;
   font-size: 2rem;
 }
+
 .li-item-header {
 	display: inline-block;
 	padding: 23px;
@@ -42,6 +45,7 @@
 		.nav-main {
 			position: fixed;
 		}
+
 		.li-item-header:hover {
 			background: #53C184;
 			-webkit-transition: all 1s ease;
@@ -50,6 +54,7 @@
 			-o-transition: all 1s ease;
 			transition: all 1s ease;
 		}
+
 		.nav-main {
 			position: fixed;
       box-shadow: 0px 1px 9px 2px  #0e0e0e;

@@ -5,11 +5,13 @@
 	overflow: hidden;
 	height: 800px;
 }
+
 .overlay-header-main {
 	background-color: rgba(52,52,62,0.2);
 	height: 800px;
 	overflow: hidden;
 }
+
 .title-main-header {
 	text-align: center;
 	color: #F9FAFD;
@@ -17,16 +19,19 @@
 	margin-top: 260px;
 	text-shadow: 2px 2px 7px #000;
 }
+
 .title-secundary-header {
 	text-align: center;
 	color: #F4F2F2;
 	font-size: 5rem;
 	height: 10rem;
 }
+
 .container-words {
 	height: 400px;
 	width: 100%;
 }
+
 .rotative-header-words span{
   font-size: 70px;
   position: absolute;
@@ -49,13 +54,14 @@
 	animation-delay: 2s; 
 	color: #fff;
 }
+
 .rotative-header-words span:nth-child(3) { 
     -webkit-animation-delay: 4s; 
 	-ms-animation-delay: 4s; 
 	animation-delay: 4s; 
 	color: #fff;	
 }
-/////////// Arrow ////////////////
+/////////// A R R O W ////////////////
 
 .arrow {
   position: absolute;
@@ -72,7 +78,8 @@
 .bounce {
   animation: bounce 2s infinite;
 }
-////////// keyframes ////////////////////
+
+////////// K E Y F R A M E S ////////////////////
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateX(-30px); }
@@ -116,19 +123,22 @@
 
 
 
-////// media /////////////
+////// //////// M E D I A  Q U E R I E S  ////////// /////////////
 
 @media (max-width: 780px ) {
 	.arrow {
 		display: none;
 	}
+
 	.header-main {
 		height: 800px;
 	}
+
 	.title-secundary-header {
 		margin-top: 10px;
 		font-size: 4.5rem;
 	}
+	
 	.title-main-header {
 		margin-top: 200px;
 		font-size: 5.8rem;
