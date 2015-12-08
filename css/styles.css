@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 @import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -17,7 +17,7 @@ body {
   padding: 0; }
 
 p {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .title-main {
   font-size: 72px;
@@ -434,7 +434,7 @@ p {
     width: 48%; }
 
   #about-me-main {
-    height: 995px; } }
+    height: 1015px; } }
 @media (max-width: 400px) {
   .text-content-about {
     max-width: 330px;
@@ -605,7 +605,7 @@ p {
 .contact-item-numbers,
 .contact-item-my-info {
   font-size: 2rem;
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .contact-item {
   color: #fff;
