@@ -5,6 +5,9 @@ $(document).ready(function() {
   });
 });
 
+/*
+ * Scroll
+ */
 $(function() {
 	  $(".li-item-header-link").click(function() {
         $("html, body").stop().animate({
