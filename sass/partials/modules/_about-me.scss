@@ -127,23 +127,23 @@
 	}
 
 	.skill-item {
-    width: 48%;
+   		width: 48%;
 	}
 
 	#about-me-main {
-		height: 1015px; 
+		height: 1055px; 
 	}
 }
 
 @media (max-width: 400px) {
 	.text-content-about {
 		max-width: 330px;
-    margin: 0 auto;
+    	margin: 0 auto;
 	}
 
 	.skill-item {
-    width: 48%;
-    margin-top: 9px;
-    margin-left: 3.3px;
+	    width: 48%;
+	    margin-top: 9px;
+	    margin-left: 3.3px;
 	}
 }

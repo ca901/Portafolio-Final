@@ -434,7 +434,7 @@ p {
     width: 48%; }
 
   #about-me-main {
-    height: 1015px; } }
+    height: 1055px; } }
 @media (max-width: 400px) {
   .text-content-about {
     max-width: 330px;
@@ -582,7 +582,8 @@ p {
   display: inline-block;
   height: 476px;
   width: 100%;
-  background-color: #2d2e31; }
+  background-color: #2d2e31;
+  overflow: hidden; }
 
 .title-contact {
   color: #fff;
