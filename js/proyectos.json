@@ -6,22 +6,22 @@
 							"Nombre":"Landing Drupal",
 							"img":"img/proyectos/badge.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Página hecha para promocionar el Drupal Camp"
+							"informacion":"Page made ​​to promote the Drupal Camp"
 						},
 						{
 							"proyecto":"http://cetavgamejam.github.io/",
 							"Nombre":"Game Jam 2015",
 							"img":"img/proyectos/gamejam.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Página creada para el Game Jam 2015 en el CETAV"
+							"informacion":"Page created for the GameJam 2015 in CETAV"
 						},
 						
 						{
-							"proyecto":"http://our-heritage.github.io/",
+							"proyecto":"http://ourheritagegame.com",
 							"Nombre":"Our Heritage",
 							"img":"img/proyectos/main-bg-small.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Promoción del juego, que hicimos en el CETAV"
+							"informacion":"Promotion of the game , we did in the CETAV"
 					
 						},
 						{
