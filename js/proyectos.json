@@ -24,17 +24,19 @@
 							"informacion":"Promotion of the game , we did in the CETAV"
 					
 						},
-						{
-							"Nombre":"La iluminada",
-							"img":"img/proyectos/pagina-web.jpg",
+						{	
+							"proyecto":"proyectos/undefinedCorp.github.io/index.html",
+							"Nombre":"Undefined Corp",
+							"img":"img/proyectos/LogoT.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice"
+							"informacion":"This page was created for entrepreneurship proyect."
 						},
 						{
-							"Nombre":"La iluminada",
-							"img":"img/proyectos/pagina-web.jpg",
+							"proyecto":"proyectos/table/index.html",
+							"Nombre":"My Spreadsheets App",
+							"img":"img/proyectos/LogoTable.png",
 							"imgMas":"img/proyectos/mas.png",
-							"informacion":"Esta es una de las primeras páginas que hice"
+							"informacion":"This page was created in JS class is a excel table."
 						},
 						{
 							"Nombre":"La iluminada",
