@@ -332,7 +332,7 @@ p {
     font-size: 3.5rem; } }
 #about-me-main {
   display: inline-block;
-  height: 765px;
+  height: 700px;
   width: 100%;
   background-color: #2D2E31; }
 
@@ -393,7 +393,7 @@ p {
     width: 32%; }
 
   #about-me-main {
-    height: 825px; } }
+    height: 760px; } }
 @media (max-width: 1280px) {
   .grid-about-me {
     max-width: 980px; }
@@ -426,7 +426,7 @@ p {
     width: 47%; }
 
   #about-me-main {
-    height: 940px; } }
+    height: 875px; } }
 @media (max-width: 480px) {
   .grid-about-me {
     max-width: 400px; }
@@ -435,7 +435,7 @@ p {
     width: 48%; }
 
   #about-me-main {
-    height: 1055px; } }
+    height: 995px; } }
 @media (max-width: 400px) {
   .text-content-about {
     max-width: 330px;

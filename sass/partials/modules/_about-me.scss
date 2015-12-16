@@ -1,6 +1,6 @@
 #about-me-main {
 	display: inline-block;
-	height: 765px; 
+	height: 700px; 
 	width: $all;
 	background-color: #2D2E31;
 }
@@ -18,7 +18,7 @@
 .text-about {
 	font-size: 2rem;
 	color:$blanco;
-  letter-spacing: 1px;
+  	letter-spacing: 1px;
 }
 
 .title-about-me {
@@ -26,8 +26,8 @@
 	text-align: center;
 	color: $blanco;
 	height: 78px;
-  margin-top: 80px;
-  font-family: $title;
+  	margin-top: 80px;
+  	font-family: $title;
 }
 
 .title-skills {
@@ -70,7 +70,7 @@
 	}
 
 	#about-me-main {
-		height: 825px;
+		height: 760px;
 	}
 }
 @media(max-width: 1280px) {
@@ -101,7 +101,7 @@
 	}
 
 	.skill-item {
-    width: 31%;
+    	width: 31%;
 	}
 
 	#about-me-main {
@@ -114,11 +114,11 @@
 	}
 
 	.skill-item {
-    width: 47%;
+    	width: 47%;
 	}
 
 	#about-me-main {
-		height: 940px; 
+		height: 875px; 
 	}
 }
 @media (max-width: 480px) {
@@ -131,7 +131,7 @@
 	}
 
 	#about-me-main {
-		height: 1055px; 
+		height: 995px; 
 	}
 }
 
